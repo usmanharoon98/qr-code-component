@@ -20,7 +20,7 @@ img {
 
 body {
   font-family: 'Outfit', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   height: 100vh;
   background-color: var(--light-gray);
   display: flex;
@@ -39,19 +39,20 @@ body {
 }
 
 .text-container {
-  padding: 1rem 0;
+  padding: 0.8rem 0.4rem;
   text-align: center;
 }
 
 .heading {
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   color: var(--dark-blue);
 }
 
 .para {
   font-weight: 400;
   color: var(--grayish-blue);
+  font-size: 0.47rem;
 }
 
 .attribution {
@@ -65,10 +66,17 @@ body {
 
 @media screen and (min-width: 500px) {
   body {
-    font-size: 0.938rem;
+    font-size: 0.9rem;
   }
   .container {
-    width: 14rem;
+    width: 17rem;
+  }
+  .text-container {
+    padding: 1rem;
+  }
+  .para {
+    margin-top: 1rem;
+    font-size: 0.7rem;
   }
 }
 
